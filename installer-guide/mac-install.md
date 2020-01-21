@@ -34,7 +34,7 @@ This will take some time so may want to grab a coffee or continue reading the gu
 
 ## Setting up OpenCore's EFI enviroment
 
-Setting up OpenCore's EFI enviroment is simple, all you need to do is mount our EFI system partition. This is automatically made when we format with GUID but is hidden from the end user, this is where our friend [mountEFI](https://github.com/corpnewt/MountEFI) comes in:
+Setting up OpenCore's EFI enviroment is simple, all you need to do is mount our EFI system partition. This partition is automatically made when we format with GUID but is hidden from the end user, this is where our friend [mountEFI](https://github.com/corpnewt/MountEFI) comes in:
 
 ![MountEFI](https://i.imgur.com/4l1oK8i.png)
 
